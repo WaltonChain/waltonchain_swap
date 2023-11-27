@@ -1,0 +1,16 @@
+[
+    ["XT","USDT"],
+    ["XT","BTCK"],
+    ["XT","OKB"],
+    ["XT","ETHK"],
+    ["XT","OKT"],
+    ["BTCK","USDT"],
+    ["ETHK","USDT"],
+    ["OKB","USDT"],
+    ["OKB","ETHK"],
+    ["OKB","BTCK"],
+    ["OKB","OKT"],
+    ["OKT","USDT"],
+    ["OKT","ETHK"],
+    ["OKT","BTCK"]
+]

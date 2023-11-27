@@ -1,0 +1,68 @@
+[
+    {
+        "name": "USDT",
+        "symbol": "USDT",
+        "address": "0xe579156f9dEcc4134B5E3A30a24Ac46BB8B01281",
+        "decimals": 10
+    },
+    {
+        "name": "OKB",
+        "symbol": "OKB",
+        "address": "0xDa9d14072Ef2262c64240Da3A93fea2279253611",
+        "decimals": 10
+    },
+    {
+        "name": "USDK",
+        "symbol": "USDK",
+        "address": "0x533367b864D9b9AA59D0DCB6554DF0C89feEF1fF",
+        "decimals": 10
+    },
+    {
+        "name": "USDC",
+        "symbol": "USDC",
+        "address": "0x3e33590013B24bf21D4cCca3a965eA10e570D5B2",
+        "decimals": 10
+    },
+    {
+        "name": "BTCK",
+        "symbol": "BTCK",
+        "address": "0x09973e7e3914EB5BA69C7c025F30ab9446e3e4e0",
+        "decimals": 10
+    },
+    {
+        "name": "ETHK",
+        "symbol": "ETHK",
+        "address": "0xDF950cEcF33E64176ada5dD733E170a56d11478E",
+        "decimals": 10
+    },
+    {
+        "name": "DOTK",
+        "symbol": "DOTK",
+        "address": "0x72f8fa5da80dc6e20e00d02724cf05ebd302c35f",
+        "decimals": 10
+    },
+    {
+        "name": "FILK",
+        "symbol": "FILK",
+        "address": "0xf6a0Dc1fD1d2c0122ab075d7ef93aD79F02CcB93",
+        "decimals": 10
+    },
+    {
+        "name": "LTCK",
+        "symbol": "LTCK",
+        "address": "0xd616388f6533B6f1c31968a305FbEE1727F55850",
+        "decimals": 10
+    },
+    {
+        "name": "WOKT",
+        "symbol": "WOKT",
+        "address": "0x70c1c53E991F31981d592C2d865383AC0d212225",
+        "decimals": 18
+    },
+    {
+        "name": "XT",
+        "symbol": "XT",
+        "address": "0x2698598b98175bB5d20f69063d5CD99514D63819",
+        "decimals": 18
+    }
+]

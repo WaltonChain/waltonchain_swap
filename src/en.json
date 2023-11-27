@@ -1,0 +1,675 @@
+{
+  "Bridge": {
+    "Bridging": "Bridging",
+    "Original": "Original",
+    "Token": "Token",
+    "Input": "Input",
+    "MinLimit": "The amount not less than",
+    "Exchange": "Exchange",
+    "HandlingFee": "Handling Fee",
+    "Approve": "Approve",
+    "CarriedOut": "Carried Out",
+    "Schedule": "Schedule",
+    "CrossRecord": "Cross-chain record",
+    "Completed": "Completed",
+    "Pending": "Pending",
+    "Failed": "Failed",
+    "Loading": "retrieving...",
+    "Assets": "Assets",
+    "Quantity": "Quantity",
+    "Send": "Send",
+    "Receive": "Receive",
+    "TransactionProceeding": "The transaction is ongoing. please wait patiently...",
+    "MAX": "MAX"
+  },
+  "header": {
+    "swap": "Swap",
+    "pool": "Fund Pool",
+    "trad": "Transaction Mining",
+    "farm": "Farms",
+    "bridge": "Bridge",
+    "market": "Market",
+    "connectWallet": "Connect to a wallet"
+  },
+  "home": {
+    "title": " is a decentralized bridge to OKExChain",
+    "subTitle": "The first one-stop swap infrastructure on OKExChain",
+    "audit": "Audit",
+    "currentTvl": "Total Value Locked",
+    "currentPrice": "Price",
+    "pendReward": "Unpaid Rewards",
+    "deflaRate": "Real-time Circulation",
+    "allVolume": "Trading Volume",
+    "liquidityProvider": "Liquidity Providers",
+    "tradTime": "Trade Count",
+    "partner": "Partners",
+    "farm": "Farms",
+    "swap": "Swap",
+    "liquidity": "Fund Pool",
+    "trad": "Transaction Mining",
+    "dayVolume": "24 H Volume",
+    "cumuVolume": "Total Volume",
+    "document": "Trade",
+    "guide": "Farming",
+    "develop": "Governance",
+    "documentText": "The first one-stop swap exchange on OKExChain. Independent pair creation. Fast and convenient trading anytime, anywhere.",
+    "guideText": "The open farming pool on OKExChain supporting separate coins, LP, and transaction mining.",
+    "developText": "DAO governance. Token holders govern and make proposals."
+  },
+  "pool": {
+    "Title": "Liquidity provider rewards",
+    "SubTitle": "Liquidity providers earn a 0.3% fee on all trades proportional to their share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity.",
+    "YourLiquidity": "Your liquidity",
+    "CreatePair": "Create a pair",
+    "AddLiquidity": "Add Liquidity",
+    "ConnectView": "Connect to a wallet to view your liquidity.",
+    "Loading": "Loading",
+    "NoFound": "No liquidity found.",
+    "ImportJoined": "Don't see a pool you joined?",
+    "Imported": "Import it.",
+
+    "addLiquidity": "添加流动性",
+    "addTip": "提示:添加流动性时,您将收到代表你方的资产池代币。这些Tokens会自动赚取与您在池中所占份额成正比的费用,并且可以随时兑换。",
+    "input": "输入",
+    "invalidText": "无效对",
+    "createPair": "创建一对"
+  },
+  "PositionCard": {
+    "Manage": "Manage",
+    "Add": "Add",
+    "Migrate": "Migrate",
+    "Remove": "Remove",
+    "ManageLiquidity": "Manage Liquidity in Rewards Pool",
+    "YourPosition": "Your position",
+    "YourPoolShare": "Your pool share",
+    "YourTotalPoolTokens": "Your total pool tokens",
+    "PoolTokensInRewardsPool": "Pool tokens in rewards pool",
+    "Pooled": "Pooled",
+    "WizardText": "By adding liquidity you'll earn 0.3% of all trades on this pair proportional to your share of the pool.Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity."
+  },
+  "Earns": {
+    "Countdown": {
+      "RewardsBegin": "Rewards begin in",
+      "RewardsEnd": "Rewards end in",
+      "RewardsEnded": "Rewards have ended!"
+    },
+    "LiquidityMining": "liquidity mining",
+    "DepositGovernance": "Deposit your Liquidity Provider tokens to receive XT, the Waltonchain-swap protocol governance token.",
+    "ReadMore": "Read more about XT",
+    "ParticipatingPools": "Participating pools",
+    "NoPools": "No active pools",
+    "Manage": {
+      "TotalDeposits": "Total deposits",
+      "PoolRate": "Pool Rate",
+      "StepLiquidity": "Step 1. Get WSwap Liquidity tokens",
+      "RequiredLiquidity": "WSwap LP tokens are required. Once you've added liquidity to the",
+      "StakePage.": "pool you can stake your liquidity tokens on this page.",
+      "Add": "Add",
+      "Liquidity": "liquidity",
+      "YourDeposits": "Your liquidity deposits",
+      "YourUnclaimed": "Your unclaimed XT",
+      "Claim": "Claim",
+      "ContractBehalf": "When you withdraw, the contract will automagically claim UNI on your behalf!",
+      "Deposit": "Deposit",
+      "DepositTokens": "Deposit WSwap LP Tokens",
+      "Withdraw": "Withdraw",
+      "TokensAvailable": "WSwap LP tokens available"
+    }
+  },
+  "Staker": {
+    "ConnectWallet": "Connect Wallet",
+    "EnterAmount": "Enter an amount"
+  },
+  "MigrateV1": {
+    "MigrateLiquidity": "Migrate V1 Liquidity",
+    "MigrateV2": "Migrate your liquidity tokens from Waltonchain-swap V1 to Waltonchain-swap V2.",
+    "BelowDeposit": "For each pool shown below, click migrate to remove your liquidity from Waltonchain-swap V1 and deposit it into Waltonchain-swap V2.",
+    "ConnectLiquidity": "Connect to a wallet to view your V1 liquidity.",
+    "Loading": "Loading",
+    "EnterLiquidity": "Enter a token address to find liquidity",
+    "NoFound": "No V1 Liquidity found.",
+    "MigrateV1Exchange": {
+      "Pooled": "Pooled",
+      "MigrateTrustless": "This tool will safely migrate your V1 liquidity to V2 with minimal price risk. The process is completely trustless thanks to the",
+      "MigrationContract": "Waltonchain-swap migration contract↗",
+      "CorrectPrice": "It's best to deposit liquidity into Waltonchain-swap V2 at a price you believe is correct. If the V2 price seems incorrect, you can either make a swap to move the price or wait for someone else to do so.",
+      "Price": "Price",
+      "PriceDifference:": "Price Difference:",
+      "MigratedPool": "You are the first liquidity provider for this pair on Waltonchain-swap V2. Your liquidity will be migrated at the current V1 price. Your transaction cost also includes the gas to create the pool.",
+      "Approving": "Approving",
+      "Approve": "Approving",
+      "Approved": "Approved",
+      "Success": "Success",
+      "Migrating": "Migrating",
+      "Migrate": "Migrate",
+      "YourWSwap": "Your Waltonchain-swap V1",
+      "LiquidityV2": "liquidity will become Waltonchain-swap V2",
+      "Liquidity": "liquidity",
+      "MigrateLiquidity": "Migrate V1 Liquidity",
+      "MigrateV2": "Migrate your liquidity tokens from Waltonchain-swap V1 to Waltonchain-swap V2.",
+      "YouAccount": "You must connect an account.",
+      "HoodMigrated": "Because Waltonchain-swap V2 uses WETH under the hood, your Waltonchain-swap V1 WETH/ETH liquidity cannot be migrated. You may want to remove your liquidity instead.",
+      "Remove": "Remove",
+      "Loading": "Loading..."
+    },
+    "RemoveV1Exchange": {
+      "RemoveUnderlying": "This tool will remove your V1 liquidity and send the underlying assets to your wallet.",
+      "Removing": "Removing",
+      "Remove": "Remove",
+      "Success": "Success",
+      "YourV1": "Your Waltonchain-swap V1",
+      "LiquidityAssets": "liquidity will be redeemed for underlying assets.",
+      "RemoveLiquidity": "Remove V1 Liquidity",
+      "RemoveTokens": "Remove your Waltonchain-swap V1 liquidity tokens.",
+      "YouAccount": "You must connect an account.",
+      "Loading": "Loading..."
+    }
+  },
+  "AddLiquidity": {
+    "Tip": "Tip",
+    "TipText": "When you add liquidity, you will receive pool tokens representing your position.These tokens automatically earn fees proportional to your share of the pool, and can be redeemed at any time.",
+    "UnsupportedAsset": "Unsupported Asset",
+    "ConnectWallet": "Connect Wallet",
+    "Approving": "Approving",
+    "Approve": "Approve",
+    "Supply": "Supply",
+    "CreatePool": "You are creating a pool",
+    "YouReceive": "You will receive",
+    "EstimateOutPut": "Output is estimated. If the price changes by more than",
+    "EstimateRevert": "your transaction will revert.",
+    "FirstProvider": "You are the first liquidity provider.",
+    "RatioTokens": "The ratio of tokens you add will set the price of this pool.",
+    "OnceReview": "Once you are happy with the rate click supply to review.",
+    "SharePool": "Share of Pool"
+  },
+  "LiquidityConfirmModal": {
+    "Deposited": "Deposited",
+    "Rates": "Rates",
+    "CreateSupply": "Create Pool & Supply",
+    "ConfirmSupply": "Confirm Supply"
+  },
+  "RemoveLiquidity": {
+    "EstimateOutPut": "Output is estimated. If the price changes by more than",
+    "EstimateRevert": "your transaction will revert.",
+    "Price": "Price",
+    "Confirm": "Confirm",
+    "YouReceive": "You will receive",
+    "Tip": "Tip",
+    "TipText": "Removing pool tokens converts your position back into underlying tokens at the current rate, proportional to your share of the pool. Accrued fees are included in the amounts you receive.",
+    "Amount": "Amount",
+    "Max": "Max",
+    "ConnectWallet": "Connect Wallet",
+    "Approving": "Approving",
+    "Approved": "Approved",
+    "Approve": "Approve",
+    "Remove": "Remove",
+    "Simple": "Simple",
+    "Detailed": "Detailed",
+    "Receive": "Receive"
+  },
+  "PoolFinder": {
+    "ConnectPool": "Connect to a wallet to find pools",
+    "FindLiquidity": "Select a token to find your liquidity.",
+    "Tip": "Tip",
+    "TipText": "Use this tool to find pairs that don't automatically appear in the interface.",
+    "SelectToken": "Select a Token",
+    "PoolFound": "Pool Found!",
+    "ManagePool": "Manage this pool.",
+    "NoLiquidity": "You don’t have liquidity in this pool yet.",
+    "AddLiquidity": "Add liquidity.",
+    "NoFound": "No pool found.",
+    "CreatePool": "Create pool.",
+    "InvalidPair": "Invalid pair.",
+    "Loading": "Loading"
+  },
+  "swap": {
+    "FromEstimated": "From (estimated)",
+    "From": "From",
+    "AddOptional": "Add a send (optional)",
+    "ToEstimated": "To (estimated)",
+    "To": "To",
+    "RemoveSend": "Remove send",
+    "Price": "Price",
+    "SlippageTolerance": "Slippage Tolerance",
+    "UnsupportedAsset": "Unsupported Asset",
+    "ConnectWallet": "Connect Wallet",
+    "InsufficientTrade": "Insufficient liquidity for this trade.",
+    "TryTrade": "Try enabling multi-hop trades.",
+    "Approving": "Approving",
+    "Approved": "Approved",
+    "Approve": "Approve",
+    "ImpactHigh": "Price Impact High",
+    "ImpactTooHigh": "Price Impact Too High"
+  },
+  "SwapHeader": {
+    "Swap": "Swap"
+  },
+  "ConfirmSwapModal": {
+    "ConfirmSwap": "Confirm Swap"
+  },
+  "CurrencyPanel": {
+    "Balance": "Balance",
+    "MAX": "MAX",
+    "SelectToken": "Select a Token"
+  },
+  "AccountDetail": {
+    "Copied": "Copied",
+    "ConnectedWith": "Connected with",
+    "ShowPortis": "Show Portis",
+    "Account": "Account",
+    "Disconnect": "Disconnect",
+    "Change": "Change",
+    "CopyAddress": "Copy Address",
+    "ViewBrowser": "View on Browser",
+    "RecentTransactions": "Recent Transactions",
+    "ClearAll": "(clear all)",
+    "YourTransactions": "Your transactions will appear here..."
+  },
+  "AddressInputPanel": {
+    "Recipient": "Recipient",
+    "ViewBrowser": "(View on Browser)"
+  },
+  "Blocklist": {
+    "BlockedAddress": "Blocked address"
+  },
+  "claim": {
+    "ClaimToken": "Claim USNI Token",
+    "ClaimSubmission": "Enter an address to trigger a UNI claim. If the address has any claimable UNI it will be sent to them on submission.",
+    "AddressClaim": "AddCress has no available claim",
+    "ClaimUNI": "Claim UNI",
+    "WelcomeTeam": "Welcome to team Unicorn",
+    "ConfirmWallet": "Confirm this transaction in your wallet",
+    "ViewBrowser": "View transaction on Browser",
+    "Liquidity": "Liquidity",
+    "User": "User",
+    "CommunityGovernance. ": "As a member of the Waltonchain-swap community you may claim UNI to be used for voting and governance. ",
+    "ReadMore": "Read more about UNI"
+  },
+  "earn": {
+    "ClaimRewardModal": {
+      "ClaimRewards": "Claim accumulated UNI rewards",
+      "ConnectWallet": "Connect Wallet",
+      "EnterAmount": "Enter an amount",
+      "UnclaimedUNI": "Unclaimed UNI",
+      "WithdrawPool": "When you claim without withdrawing your liquidity remains in the mining pool.",
+      "Claim": "Claim",
+      "Claiming": "Claiming",
+      "TransactionSubmitted": "Transaction Submitted",
+      "ClaimedUNI": "Claimed UNI!"
+    },
+    "PoolCard": {
+      "Manage": "Manage",
+      "Deposit": "Deposit",
+      "TotalDeposited": "Total deposited",
+      "PoolRate": "Pool rate",
+      "YourRate": "Your rate"
+    },
+    "StakingModal": {
+      "DepositingLiquidity": "Depositing Liquidity",
+      "DepositLiquidity": "Deposit liquidity",
+      "Deposit": "Deposit",
+      "AvailableDeposit: ": "Available to deposit: ",
+      "WeeklyRewards": "Weekly Rewards",
+      "Approve": "Approve",
+      "TransactionSubmitted": "Transaction Submitted",
+      "Deposited": "Deposited"
+    },
+    "UnstakingModal": {
+      "WithdrawLiquidity": "Withdraw deposited liquidity",
+      "ConnectWallet": "Connect Wallet",
+      "EnterAmount": "Enter an amount",
+      "DepositedLiquidity": "Deposited liquidity:",
+      "UnclaimedUNI": "Unclaimed UNI",
+      "WithdrawPool": "When you withdraw, your UNI is claimed and your liquidity is removed from the mining pool.",
+      "TransactionSubmitted": "Transaction Submitted",
+      "WithdrewUNI-V2": "Withdrew UNI-V2!",
+      "ClaimedUNI": "Claimed UNI!",
+      "Withdrawing": "Withdrawing",
+      "Claiming": "Claiming",
+      "Withdraw": "Withdraw",
+      "WithdrawClaim": "Withdraw & Claim"
+    }
+  },
+  "Header": {
+    "YourBreakdown": "Your XT Breakdown",
+    "Balance": "Balance",
+    "Unclaimed": "Unclaimed",
+    "Claim": "(claim)",
+    "Price": "price",
+    "Circulation": "XT in circulation",
+    "TotalSupply": "Total Supply",
+    "ViewAnalytics": "View XT Analytics"
+  },
+  "Menu": {
+    "About": "About",
+    "Docs": "Docs",
+    "Code": "Code",
+    "Discord": "Discord",
+    "Analytics": "Analytics",
+    "Claim": "Claim"
+  },
+  "ModalView": {
+    "ConfirmWallet": "Confirm this transaction in your wallet",
+    "ViewBrowser": "View transaction on Browser"
+  },
+  "NavigationTabs": {
+    "Swap": "Swap",
+    "Pool": "Pool",
+    "ImportPool": "Import Pool",
+    "CreatePair": "Create a pair",
+    "AddLiquidity": "Add Liquidity",
+    "RemoveLiquidity": "Remove Liquidity"
+  },
+  "NumericalInput": {
+    "TokenAmount": "Token Amount"
+  },
+  "Popups": {
+    "ClaimPopup": {
+      "HasArrived": "XT has arrived",
+      "ThanksCommunity": "Thanks for being part of the Waltonchain-swap community <3",
+      "ClaimTokens": "Claim your XT tokens"
+    },
+    "ListUpdatePopup": {
+      "TokenList": "The token list",
+      "HasUpdated": "has been updated to",
+      "AvailableToken": "An update is available for the token list",
+      "Added": "added",
+      "Removed": "removed",
+      "TokensUpdated": "tokens updated",
+      "AcceptUpdate": "Accept update",
+      "Dismiss": "Dismiss",
+      "To": "to"
+    },
+    "TransactionPopup": {
+      "ViewBrowser": "View on Browser"
+    }
+  },
+  "SearchModal": {
+    "CommonBases": {
+      "CommonBases": "Common bases",
+      "CommonlyTokens": "These tokens are commonly paired with other tokens."
+    },
+    "CurrencyList": {
+      "ByUser": "• Added by user",
+      "ExpandedLists": "Expanded results from inactive Token Lists",
+      "SpecificLists": "Tokens from inactive lists. Import specific tokens below or click 'Manage' to activate more lists."
+    },
+    "CurrencySearch": {
+      "SelectToken": "Select a token",
+      "NoFound": "No results found.",
+      "SearchAddress": "Search name or paste address"
+    },
+    "ImportList": {
+      "ImportList": "Import List",
+      "ImportRisk": "Import at your own risk",
+      "ByImplicitly": "By adding this list you are implicitly trusting that the data is correct. Anyone can create a list, including creating fake versions of existing lists and lists that claim to represent projects that do not have one.",
+      "PurchaseBack": "If you purchase a token from this list, you may not be able to sell it back.",
+      "Understand": "I understand",
+      "Import": "Import"
+    },
+    "ImportRow": {
+      "Via": "via",
+      "Import": "Import",
+      "Active": "Active"
+    },
+    "ImportToken": {
+      "Import": "Import",
+      "Via": "via",
+      "UnknownSource": "Unknown Source",
+      "TradeRisk": "Trade at your own risk!",
+      "RepresentProjects": "Anyone can create a token, including creating fake versions of existing tokens that claim to represent projects.",
+      "SellBack": "If you purchase this token, you may not be able to sell it back.",
+      "Understand": "I understand"
+    },
+    "Manage": {
+      "Manage": "Manage",
+      "Lists": "Lists",
+      "Tokens": "Tokens"
+    },
+    "ManageLists": {
+      "ViewList": "View list",
+      "RemoveList": "Remove list",
+      "UpdateList": "Update list",
+      "Loaded": "Loaded",
+      "Import": "Import"
+    },
+    "ManageTokens": {
+      "EnterAddress": "Enter valid token address",
+      "Custom": "Custom",
+      "ClearAll": "Clear all",
+      "CustomBrowser": "Tip: Custom tokens are stored locally in your browser"
+    }
+  },
+  "Setting": {
+    "AreSure": "Are you sure?",
+    "ExpertFunds": "Expert mode turns off the confirm transaction prompt and allows high slippage trades that often result in bad rates and lost funds.",
+    "ONLYDOING": "ONLY USE THIS MODE IF YOU KNOW WHAT YOU ARE DOING.",
+    "TurnMode": "Turn On Expert Mode",
+    "TransactionSettings": "Transaction Settings",
+    "InterfaceSettings": "Interface Settings",
+    "ToggleMode": "Toggle Expert Mode",
+    "BypassesRisk": "Bypasses confirmation modals and allows high slippage trades. Use at your own risk.",
+    "DisableMultihops": "Disable Multihops",
+    "RestrictsOnly": "Restricts swaps to direct pairs only.",
+    "Language": "Language"
+  },
+  "TransactionSettings": {
+    "SlippageTolerance": "Slippage tolerance",
+    "UnfavorablyPercentage": "Your transaction will revert if the price changes unfavorably by more than this percentage.",
+    "SlippagePercentage": "Enter a valid slippage percentage",
+    "TransactionFail": "Your transaction may fail",
+    "TransactionFrontrun": "Your transaction may be frontrun",
+    "TransactionDeadline": "Transaction deadline",
+    "PendingLong": "Your transaction will revert if it is pending for more than this long.",
+    "Minutes": "minutes"
+  },
+  "TransactionConfirmationModal": {
+    "WaitingConfirmation": "Waiting For Confirmation",
+    "ConfirmWallet": "Confirm this transaction in your wallet",
+    "TransactionSubmitted": "Transaction Submitted",
+    "Add": "Add",
+    "To": "to",
+    "Added": "Added",
+    "Close": "Close",
+    "Error": "Error",
+    "Dismiss": "Dismiss"
+  },
+  "Vote": {
+    "DelegateModal": {
+      "EarnedGovernance": "Earned UNI tokens represent voting shares in Waltonchain-swap governance.",
+      "DelegateParty": "You can either vote on each proposal yourself or delegate your votes to a third party.",
+      "Remove": "Remove",
+      "Add": "Add",
+      "Delegate": "Delegate",
+      "DelegateVotes": "Delegate Votes",
+      "SelfDelegate": "Self Delegate",
+      "DelegatingVotes": "Delegating votes",
+      "UnlockingVotes": "Unlocking Votes",
+      "TransactionSubmitted": "Transaction Submitted"
+    },
+    "VoteModal": {
+      "Votes": "Votes",
+      "SubmittingVote": "Submitting Vote",
+      "ConfirmWallet": "Confirm this transaction in your wallet",
+      "TransactionSubmitted": "Transaction Submitted",
+      "ViewBrowser": "View transaction on Browser"
+    }
+  },
+  "Voter": {
+    "UnlockVotes": "Unlock Votes",
+    "UpdateDelegation": "Update Delegation",
+    "WSwapGovernance": "Waltonchain-swap Governance",
+    "GovernanceDelegate": "XT tokens represent voting shares in Waltonchain-swap governance. You can vote on each proposal yourself or delegate your votes to a third party.",
+    "ReadGovernance": "Read more about Waltonchain-swap governance",
+    "Proposals": "Proposals",
+    "UnlockVoting": "Unlock Voting",
+    "Votes": "Votes",
+    "DelegatedTo": "Delegated to:",
+    "Edit": "(edit)",
+    "NoFound": "No proposals found.",
+    "ProposalsAppear": "Proposals submitted by community members will appear here.",
+    "ThreshholdProposals": "A minimum threshhold of 1% of the total XT supply is required to submit proposals",
+    "VotePage": {
+      "UnlockVotes": "Unlock Votes",
+      "AllProposals": "All Proposals",
+      "VotingEnded": "Voting ended",
+      "VotingApproximately": "Voting ends approximately",
+      "DelegatedBlock": "Only XT votes that were self delegated or delegated to another address before block",
+      "EligibleVoting": "are eligible for voting.",
+      "UnlockVoting": "Unlock voting",
+      "PrepareProposal": "to prepare for the next proposal.",
+      "VoteFor": "Vote For",
+      "VoteAgainst": "Vote Against",
+      "For": "For",
+      "Against": "Against",
+      "Details": "Details",
+      "Description": "Description",
+      "Proposer": "Proposer"
+    }
+  },
+  "Burn": {
+    "ConnectWallet": "Connect Wallet",
+    "EnterAmount": "Enter an amount"
+  },
+  "Mint": {
+    "ConnectWallet": "Connect Wallet",
+    "EnterAmount": "Enter an amount",
+    "InvalidPair": "Invalid pair",
+    "Insufficient": "Insufficient",
+    "Balance": "balance"
+  },
+  "UseWrapCallback": {
+    "InsufficientBalance": "Insufficient OKT balance"
+  },
+  "WalletModal": {
+    "WrongNetwork": "Wrong Network",
+    "ErrorConnecting": "Error connecting",
+    "AppropriateNetwork": "Please connect to the appropriate Waltonchain-swap network.",
+    "ErrorRefreshing": "Error connecting. Try refreshing the page.",
+    "Back": "Back",
+    "ConnectWallet": "Connect to a wallet",
+    "NewEthereum": "New to Ethereum?",
+    "LearnWallets": "Learn more about wallets",
+    "TryAgain": "Try Again",
+    "Initializing": "Initializing..."
+  },
+  "Web3ReactManager": {
+    "UnknownError": "unknownError"
+  },
+  "Web3Status": {
+    "Pending": "Pending",
+    "WrongNetwork": "Wrong Network",
+    "Error": "Error",
+    "ConnectWallet": "Connect to a wallet"
+  },
+  "trad": {
+    "PoolRewards": "Pool's Rewards",
+    "WithdrawRewards:": "Withdrawable Rewards",
+    "Withdraw": "Withdraw",
+    "TradPair": "Trad Pair",
+    "APY": "APY",
+    "CurrentReward": "Reward",
+    "TradVolume": "Trad Volume",
+    "CurrentVolume": "Volume",
+    "PersonVolume": "Person Volume",
+    "PersonReward": "Person Reward",
+    "Loading": "Loading",
+    "NoData": "No Data"
+  },
+  "farm": {
+    "MyFarm": "My Farmings",
+    "TotalProfit": "Total Profit",
+    "FarmPool": "Farm Pool",
+    "Principal": "Principal",
+    "APY": "APY",
+    "Profit": "Profit",
+    "TotalStaked": "Total staked",
+    "Operate": "Operate",
+    "Stake": "Stake",
+    "WSWAP-LP": "WSWAP-LP",
+    "SingleToken": "Single Token",
+    "TotalLpPool": "Total LP Pool",
+    "Default": "Default",
+    "Select": "Select",
+    "Loading": "Loading",
+    "NoData": "No Data"
+  },
+  "stake": {
+    "Earned": "Earned",
+    "Staked": "Staked",
+    "WithdrawReward": "Withdraw Reward",
+    "Approve": "Approve",
+    "Deposit": "Deposit",
+    "Withdraw": "Withdraw",
+    "ApproveSuccess": "Approve Success",
+    "DepositSuccess": "Deposit Success",
+    "WithdrawSuccess": "Withdraw Success",
+    "GET": "GET",
+    "Back": "Back"
+  },
+  "Swaper": {
+    "AdvancedSwapDetails": {
+      "MinimumReceived": "Minimum received",
+      "MaximumSold": "Maximum sold",
+      "UnfavorableConfirmed": "Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.",
+      "PriceImpact": "Price Impact",
+      "DifferenceTrade": "The difference between the market price and estimated price due to trade size.",
+      "LiquidityFee": "Liquidity Provider Fee",
+      "ProtocolIncentive": "A portion of each trade (0.30%) goes to liquidity providers as a protocol incentive.",
+      "Route": "Route",
+      "BestTrade": "Routing through these tokens resulted in the best price for your trade."
+    },
+    "BetterTradeLink": {
+      "BetterTrade": "There is a better price for this trade on",
+      "Showing": "Showing",
+      "Price": "price.",
+      "": "Switch to"
+    },
+    "ConfirmSwapModal": {
+      "ConfirmSwap": "Confirm Swap"
+    },
+    "SwapModalFooter": {
+      "Price": "Price",
+      "MinimumReceived": "Minimum received",
+      "MaximumSold": "Maximum sold",
+      "UnfavorableConfirmed": "Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.",
+      "PriceImpact": "Price Impact",
+      "DifferenceTrade": "The difference between the market price and your price due to trade size.",
+      "LiquidityFee": "Liquidity Provider Fee",
+      "ProtocolIncentive": "A portion of each trade (0.30%) goes to liquidity providers as a protocol incentive.",
+      "SwapAnyway": "Swap Anyway",
+      "ConfirmSwap": "Confirm Swap"
+    },
+    "SwapModalHeader": {
+      "Accept": "Accept",
+      "OutputLeast": "Output is estimated. You will receive at least ",
+      "TransactionRevert": " or the transaction will revert.",
+      "EstimatedMost": "Input is estimated. You will sell at most ",
+      "OutputTo": "Output will be sent to",
+      "PriceUpdated": "Price Updated"
+    },
+    "UnsupportedCurrencyFooter": {
+      "UnsupportedAssets": "Unsupported Assets",
+      "AvailableReasons": "Some assets are not available through this interface because they may not work well with our smart contract or we are unable to allow trading for legal reasons.",
+      "ReadAssets": "Read more about unsupported assets"
+    }
+  },
+  "Toggle": {
+    "ON": "ON",
+    "OFF": "OFF"
+  },
+  "Swapes": {
+    "ConnectWallet": "Connect Wallet",
+    "EnterAmount": "Enter an amount",
+    "SelectToken": "Select a token",
+    "EnterRecipient": "Enter a recipient",
+    "InvalidRecipient": "Invalid recipient",
+    "Insufficient": "Insufficient",
+    "Balance": "balance"
+  },
+  "Max": "Max",
+  "Confirm": "Confirm",
+  "Cancle": "Cancle",
+  "Title": "The decentralized bridge to OKExChain",
+  "SubTitle": "The first one-stop swap infrastructure on OKExChain"
+}

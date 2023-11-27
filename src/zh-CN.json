@@ -1,0 +1,675 @@
+{
+  "Bridge": {
+    "Bridging": "跨桥",
+    "Original": "当前桥",
+    "Token": "代币",
+    "Input": "输入",
+    "MinLimit": "金额输入不得低于",
+    "Exchange": "交换桥",
+    "HandlingFee": "手续费",
+    "Approve": "授权",
+    "CarriedOut": "执行",
+    "Schedule": "交易进度",
+    "CrossRecord": "跨链记录",
+    "Completed": "成功",
+    "Pending": "准备中",
+    "Failed": "失败",
+    "Loading": "正在获取...",
+    "Assets": "资产",
+    "Quantity": "交易量",
+    "Send": "发送方",
+    "Receive": "接收方",
+    "TransactionProceeding": "交易正在进行。 请耐心等待...",
+    "MAX": "最大值"
+  },
+  "header": {
+    "swap": "兑换",
+    "pool": "资金池",
+    "trad": "交易挖矿",
+    "farm": "农场",
+    "bridge": "跨桥",
+    "market": "行情",
+    "connectWallet": "链接钱包"
+  },
+  "home": {
+    "title": " 连接OKExChain去中心化桥梁",
+    "subTitle": "OKExChain上的基础设施——首个一站式swap",
+    "audit": "安全审计",
+    "currentTvl": "当前锁仓金额",
+    "currentPrice": "当前价格",
+    "pendReward": "待奖励金额",
+    "deflaRate": "实时流通量",
+    "allVolume": "所有交易金额",
+    "liquidityProvider": "流动性提供者",
+    "tradTime": "所有交易次数",
+    "partner": "项目合作方",
+    "farm": "农场",
+    "swap": "兑换",
+    "liquidity": "资金池",
+    "trad": "交易挖矿",
+    "dayVolume": "24小时成交量",
+    "cumuVolume": "总交易量",
+    "document": "交易",
+    "guide": "挖矿",
+    "develop": "治理",
+    "documentText": "OKExChain上首个一站式去中心化swap交易平台,自主创建交易对,随时随地,方便快捷的进行交易",
+    "guideText": "不仅支持单币种、LP和交易挖矿,更有开放的OKExChain生态挖矿池",
+    "developText": "去中心化Dao治理,代币持有人享受治理和提案权"
+  },
+  "pool": {
+    "Title": "流动性提供者奖励",
+    "SubTitle": "流动性提供者在所有交易中收取的0.3％的费用与其所占份额成正比。 费用会实时添加到池中，并且可以通过提取流动资金来索取费用。",
+    "YourLiquidity": "您的流动资金",
+    "CreatePair": "创建一对",
+    "AddLiquidity": "增加流动性",
+    "Loading": "载入中",
+    "NoFound": "找不到流动性。",
+    "ConnectView": "连接到钱包以查看您的流动性。",
+    "ImportJoined": "看不到您加入的流动性吗?",
+    "Imported": "导入它。",
+
+    "addLiquidity": "添加流动性",
+    "addTip": "提示:添加流动性时,您将收到代表你方的资产池代币。这些Tokens会自动赚取与您在池中所占份额成正比的费用,并且可以随时兑换。",
+    "input": "输入",
+    "invalidText": "无效对",
+    "createPair": "创建一对"
+  },
+  "Earns": {
+    "Countdown": {
+      "RewardsBegin": "奖励始于",
+      "RewardsEnd": "奖励以",
+      "RewardsEnded": "奖励已经结束！"
+    },
+    "LiquidityMining": "流动性挖矿",
+    "DepositGovernance": "存放您的Liquidity Provider令牌以接收XT，即WSwap协议管理令牌。",
+    "ReadMore": "阅读有关XT的更多信息",
+    "ParticipatingPools": "参与池",
+    "NoPools": "没有活动的池子",
+    "Manage": {
+      "TotalDeposits": "存款总额",
+      "PoolRate": "池价",
+      "StepLiquidity": "步骤1.获取WSwap流动性令牌",
+      "RequiredLiquidity": "WSwap LP令牌是必需的。 在您向流动性增加流动性之后",
+      "StakePage.": "您可以在此页面上投入您的流动性令牌。",
+      "Add": "添加",
+      "Liquidity": "流动性",
+      "YourDeposits": "您的流动资金存款",
+      "YourUnclaimed": "您无人认领的XT",
+      "Claim": "领取",
+      "ContractBehalf": "当您退出时，合同将代表您自动索赔UNI！",
+      "Deposit": "存入",
+      "DepositTokens": "存入WSwap LP代币",
+      "Withdraw": "提取",
+      "TokensAvailable": "WSwap LP令牌可用"
+    }
+  },
+  "MigrateV1": {
+    "MigrateLiquidity": "迁移V1流动性",
+    "MigrateV2": "将您的流动性令牌从WSwap V1迁移到WSwap V2。",
+    "BelowDeposit": "对于下面显示的每个池，单击“迁移”以从WSwap V1中删除您的流动性并将其存入WSwap V2。",
+    "ConnectLiquidity": "连接到钱包以查看您的V1流动性。",
+    "Loading": "加载中",
+    "EnterLiquidity": "输入代币地址以查找流动性",
+    "NoFound": "找不到V1流动性。",
+    "MigrateV1Exchange": {
+      "Pooled": "已注入",
+      "MigrateTrustless": "该工具将以最小的价格风险将您的V1流动性安全地迁移到V2。 由于",
+      "MigrationContract": "WSwap迁移合同↗",
+      "CorrectPrice": "最好以您认为正确的价格将流动资金存入WSwap V2。 如果V2价格看似不正确，您可以交换价格来移动价格，也可以等待其他人这样做。",
+      "Price": "价格",
+      "PriceDifference:": "差价：",
+      "MigratedPool": "您是WSwap V2上该货币对的第一位流动性提供者。 您的流动性将以当前的V1价格迁移。 您的交易成本还包括创建池的费用。",
+      "Approving": "授权中",
+      "Approve": "授权",
+      "Approved": "已授权",
+      "Success": "成功",
+      "Migrating": "正在迁移",
+      "Migrate": "迁移",
+      "YourWSwap": "您的WSwap V1",
+      "LiquidityV2": "流动性将成为WSwap V2",
+      "Liquidity": "流动性",
+      "MigrateLiquidity": "迁移V1流动性",
+      "MigrateV2": "将您的流动性令牌从WSwap V1迁移到WSwap V2。",
+      "YouAccount": "您必须连接一个帐户。",
+      "HoodMigrated": "由于WSwap V2在后台使用WETH，因此您的WSwap V1 WETH / ETH流动性无法迁移。 您可能想取消流动性。",
+      "Remove": "移除",
+      "Loading": "加载中..."
+    },
+    "RemoveV1Exchange": {
+      "RemoveUnderlying": "该工具将删除您的V1流动性并将基础资产发送到您的钱包。",
+      "Removing": "移除中",
+      "Remove": "移除",
+      "Success": "成功",
+      "YourV1": "您的WSwap V1",
+      "LiquidityAssets": "流动资金将用于基础资产的赎回。",
+      "RemoveLiquidity": "移除V1流动性",
+      "RemoveTokens": "删除您的WSwap V1流动性令牌。",
+      "YouAccount": "您必须连接一个帐户。",
+      "Loading": "加载中..."
+    }
+  },
+  "PositionCard": {
+    "Manage": "管理",
+    "Migrate": "迁移流动性",
+    "Add": "添加流动性",
+    "Remove": "移除流动性",
+    "ManageLiquidity": "管理奖励池中的流动性",
+    "YourPosition": "您的定位",
+    "YourPoolShare": "您的池份额",
+    "YourTotalPoolTokens": "您的总池Tokens",
+    "PoolTokensInRewardsPool": "奖励池中的池Tokens",
+    "Pooled": "已注入",
+    "WizardText": "通过增加流动性，您将在这对货币对中的所有交易中赚取0.3％的资金，这与您在池中的份额成比例。费用会实时添加到池中，并且可以通过撤回您的流动性来索取费用。"
+  },
+  "AddLiquidity": {
+    "Tip": "提示",
+    "TipText": "增加流动性后，您将收到代表您头寸的集合代币，这些代币会自动赚取与您在集合中所占份额成比例的费用，并且可以随时赎回。",
+    "UnsupportedAsset": "不支持的资产",
+    "ConnectWallet": "链接钱包",
+    "Approving": "授权",
+    "Approve": "授权",
+    "Supply": "提交",
+    "CreatePool": "您正在创建一个池",
+    "YouReceive": "您将收到",
+    "EstimateOutPut": "估计输出。 如果价格变化超过",
+    "EstimateRevert": "您的交易将恢复。",
+    "FirstProvider": "您是第一个流动性提供者。",
+    "RatioTokens": "您添加的代币比率将设置该池的价格。",
+    "OnceReview": "对价格满意后，请点击供应进行审核。",
+    "SharePool": "池份额"
+  },
+  "LiquidityConfirmModal": {
+    "Deposited": "已存入",
+    "Rates": "比率",
+    "CreateSupply": "创建池 & 提交",
+    "ConfirmSupply": "确认提交"
+  },
+  "RemoveLiquidity": {
+    "EstimateOutPut": "估计输出。 如果价格变化超过",
+    "EstimateRevert": "您的交易将恢复。",
+    "Price": "价格",
+    "Confirm": "确认",
+    "YouReceive": "您将收到",
+    "Tip": "提示",
+    "TipText": "删除池代币会按照您在池中所占的比例按当前汇率将您的头寸转换回基础代币。 应计费用已包含在您收到的金额中。",
+    "Amount": "数量",
+    "Max": "最大值",
+    "ConnectWallet": "链接钱包",
+    "Approving": "授权中",
+    "Approved": "已授权",
+    "Approve": "授权",
+    "Remove": "移除",
+    "Simple": "简述",
+    "Detailed": "详情",
+    "Receive": "接收"
+  },
+  "PoolFinder": {
+    "ConnectPool": "连接到钱包查找池",
+    "FindLiquidity": "选择一个代币以找到您的流动性。",
+    "Tip": "提示",
+    "TipText": "使用此工具查找不会自动出现在界面中的对。",
+    "SelectToken": "选择通证",
+    "PoolFound": "找到池！",
+    "ManagePool": "管理该池。",
+    "NoLiquidity": "您的资金池中还没有流动性。",
+    "AddLiquidity": "添加流动性。",
+    "NoFound": "找不到池。",
+    "CreatePool": "创建池。",
+    "InvalidPair": "无效的货币对。",
+    "Loading": "加载中"
+  },
+  "swap": {
+    "FromEstimated": "从（估计值）",
+    "From": "从",
+    "AddOptional": "添加发送（可选）",
+    "ToEstimated": "到 (估计值)",
+    "To": "到",
+    "RemoveSend": "删除发送",
+    "Price": "价格",
+    "SlippageTolerance": "滑差公差",
+    "UnsupportedAsset": "不支持的资产",
+    "ConnectWallet": "链接钱包",
+    "InsufficientTrade": "该交易的流动性不足。",
+    "TryTrade": "尝试启用多跳交易。",
+    "Approving": "授权中",
+    "Approved": "已授权",
+    "Approve": "授权",
+    "ImpactHigh": "价格影响高",
+    "ImpactTooHigh": "价格影响过高"
+  },
+  "SwapHeader": {
+    "Swap": "兑换"
+  },
+  "ConfirmSwapModal": {
+    "ConfirmSwap": "确认兑换"
+  },
+  "WalletModal": {
+    "WrongNetwork": "网络错误",
+    "ErrorConnecting": "连接错误",
+    "AppropriateNetwork": "请连接到适当的WSwap网络。",
+    "ErrorRefreshing": "连接错误。 尝试刷新页面。",
+    "Back": "返回",
+    "ConnectWallet": "连接到钱包",
+    "NewEthereum": "以太坊新手？",
+    "LearnWallets": "了解有关钱包的更多信息",
+    "TryAgain": "再试一次",
+    "Initializing": "初始化中..."
+  },
+  "Web3ReactManager": {
+    "UnknownError": "未知错误"
+  },
+  "Web3Status": {
+    "Pending": "待办中",
+    "WrongNetwork": "网络错误",
+    "Error": "错误",
+    "ConnectWallet": "连接到钱包"
+  },
+  "Vote": {
+    "DelegateModal": {
+      "EarnedGovernance": "获得的UNI令牌代表WSwap治理中的有表决权的份额。",
+      "DelegateParty": "您可以自己对每个提案进行投票，也可以将投票委托给第三方。",
+      "Remove": "移除",
+      "Add": "添加",
+      "Delegate": "代表",
+      "DelegateVotes": "代表投票",
+      "SelfDelegate": "自我代表",
+      "DelegatingVotes": "委派选票",
+      "UnlockingVotes": "解锁投票",
+      "TransactionSubmitted": "交易已提交"
+    },
+    "VoteModal": {
+      "Votes": "投票数",
+      "SubmittingVote": "提交投票",
+      "ConfirmWallet": "在您的钱包中确认此交易",
+      "TransactionSubmitted": "交易已提交",
+      "ViewBrowser": "在浏览器上查看交易"
+    }
+  },
+  "TransactionConfirmationModal": {
+    "WaitingConfirmation": "等待确认中",
+    "ConfirmWallet": "在您的钱包中确认此交易",
+    "TransactionSubmitted": "交易已提交",
+    "Add": "添加",
+    "To": "到",
+    "Added": "已添加",
+    "Close": "关闭",
+    "Error": "错误",
+    "Dismiss": "解雇"
+  },
+  "CurrencyPanel": {
+    "Balance": "余额",
+    "MAX": "最大值",
+    "SelectToken": "选择通证"
+  },
+  "AccountDetail": {
+    "Copied": "已复制",
+    "ConnectedWith": "已连接",
+    "ShowPortis": "显示 Portis",
+    "Account": "帐户",
+    "Disconnect": "断开",
+    "Change": "切换",
+    "CopyAddress": "复制地址",
+    "ViewBrowser": "在浏览器上查看",
+    "RecentTransactions": "最近交易",
+    "ClearAll": "(全部清除)",
+    "YourTransactions": "您的交易将出现在这里..."
+  },
+  "AddressInputPanel": {
+    "Recipient": "接受者",
+    "ViewBrowser": "（在浏览器上查看）"
+  },
+  "Blocklist": {
+    "BlockedAddress": "封锁地址"
+  },
+  "claim": {
+    "ClaimToken": "领取USNI令牌",
+    "ClaimSubmission": "输入一个地址以触发UNI领取。 如果地址中有可领取的UNI，则会在提交后将其发送给他们。",
+    "AddressClaim": "AddCress没有可用的声明",
+    "ClaimUNI": "领取UNI",
+    "WelcomeTeam": "欢迎来到独角兽团队",
+    "ConfirmWallet": "在您的钱包中确认交易",
+    "ViewBrowser": "在浏览器上查看交易",
+    "Liquidity": "流动性",
+    "User": "用户",
+    "CommunityGovernance. ": "作为WSwap社区的成员，您可以要求UNI用于投票和治理。",
+    "ReadMore": "了解有关UNI的更多信息"
+  },
+  "earn": {
+    "ClaimRewardModal": {
+      "ClaimRewards": "领取累积的UNI奖励",
+      "ConnectWallet": "链接钱包",
+      "EnterAmount": "输入金额",
+      "UnclaimedUNI": "无人认领的UNI",
+      "WithdrawPool": "当您要求不撤回资金时，您的流动性仍留在采矿池中。",
+      "Claim": "领取",
+      "Claiming": "领取",
+      "TransactionSubmitted": "交易已提交",
+      "ClaimedUNI": "UNI已领取!"
+    },
+    "PoolCard": {
+      "Manage": "管理",
+      "Deposit": "存入",
+      "TotalDeposited": "存入总额",
+      "PoolRate": "池率",
+      "YourRate": "您的比率"
+    },
+    "StakingModal": {
+      "DepositingLiquidity": "存入流动性",
+      "DepositLiquidity": "存入流动性",
+      "Deposit": "存入",
+      "AvailableDeposit: ": "可存入: ",
+      "WeeklyRewards": "每周奖励",
+      "Approve": "授权",
+      "TransactionSubmitted": "交易已提交",
+      "Deposited": "已存入"
+    },
+    "UnstakingModal": {
+      "WithdrawLiquidity": "提取流动资金",
+      "ConnectWallet": "链接钱包",
+      "EnterAmount": "输入金额",
+      "DepositedLiquidity": "已存入的流动性:",
+      "UnclaimedUNI": "无人认领的UNI",
+      "WithdrawPool": "当您要求不撤回资金时，您的流动性仍留在采矿池中。",
+      "TransactionSubmitted": "交易已提交",
+      "WithdrewUNI-V2": "提取UNI-V2!",
+      "ClaimedUNI": "UNI已领取!",
+      "Withdrawing": "提取",
+      "Claiming": "领取",
+      "Withdraw": "提取",
+      "WithdrawClaim": "提取 & 领取"
+    }
+  },
+  "Header": {
+    "YourBreakdown": "您的XT故障",
+    "Balance": "余额",
+    "Unclaimed": "无人认领",
+    "Claim": "(领取)",
+    "Price": "价格",
+    "Circulation": "XT发行量",
+    "TotalSupply": "总供给",
+    "ViewAnalytics": "查看XT分析"
+  },
+  "Menu": {
+    "About": "关于我们",
+    "Docs": "文档",
+    "Code": "代码",
+    "Discord": "Discord",
+    "Analytics": "分析",
+    "Claim": "领取"
+  },
+  "ModalView": {
+    "ConfirmWallet": "在您的钱包中确认此交易",
+    "ViewBrowser": "在浏览器上查看交易"
+  },
+  "NavigationTabs": {
+    "Swap": "兑换",
+    "Pool": "资金池",
+    "ImportPool": "导入池",
+    "CreatePair": "创建一对",
+    "AddLiquidity": "添加流动性",
+    "RemoveLiquidity": "移除流动性"
+  },
+  "NumericalInput": {
+    "TokenAmount": "代币数量"
+  },
+  "Popups": {
+    "ClaimPopup": {
+      "HasArrived": "XT到了",
+      "ThanksCommunity": "感谢您加入WSwap社区<3",
+      "ClaimTokens": "领取您的XT令牌"
+    },
+    "ListUpdatePopup": {
+      "TokenList": "代币清单",
+      "HasUpdated": "已更新为",
+      "AvailableToken": "令牌列表有更新可用",
+      "Added": "已添加",
+      "Removed": "已移除",
+      "TokensUpdated": "令牌已更新",
+      "AcceptUpdate": "接受更新",
+      "Dismiss": "解雇",
+      "To": "到"
+    },
+    "TransactionPopup": {
+      "ViewBrowser": "在浏览器上查看"
+    }
+  },
+  "SearchModal": {
+    "CommonBases": {
+      "CommonBases": "共同基础",
+      "CommonlyTokens": "这些令牌通常与其他令牌配对。"
+    },
+    "CurrencyList": {
+      "ByUser": "• 由用户添加",
+      "ExpandedLists": "来自无效令牌列表的扩展结果",
+      "SpecificLists": "非活动列表中的令牌。 在下面导入特定令牌或单击“管理”以激活更多列表。"
+    },
+    "CurrencySearch": {
+      "SelectToken": "选择通证",
+      "NoFound": "未找到结果。",
+      "SearchAddress": "搜索名称或粘贴地址"
+    },
+    "ImportList": {
+      "ImportList": "汇入清单",
+      "ImportRisk": "进口风险自负",
+      "ByImplicitly": "通过添加此列表，您将隐式地相信数据是正确的。 任何人都可以创建列表，包括创建现有列表的虚假版本以及声称代表没有项目的列表的列表。",
+      "PurchaseBack": "如果您从此列表中购买了代币，则可能无法将其出售。",
+      "Understand": "我明白",
+      "Import": "导入"
+    },
+    "ImportRow": {
+      "Via": "通过",
+      "Import": "导入",
+      "Active": "激活"
+    },
+    "ImportToken": {
+      "Import": "导入",
+      "Via": "通过",
+      "UnknownSource": "来源不明",
+      "TradeRisk": "自负风险！",
+      "RepresentProjects": "任何人都可以创建令牌，包括创建声称代表项目的现有令牌的伪造版本。",
+      "SellBack": "如果您购买了此令牌，则可能无法将其出售。",
+      "Understand": "我明白"
+    },
+    "Manage": {
+      "Manage": "管理",
+      "Lists": "清单",
+      "Tokens": "代币"
+    },
+    "ManageLists": {
+      "ViewList": "查看清单",
+      "RemoveList": "移除清单",
+      "UpdateList": "更新清单",
+      "Loaded": "已加载",
+      "Import": "导入"
+    },
+    "ManageTokens": {
+      "EnterAddress": "输入有效的令牌地址",
+      "Custom": "自定义",
+      "ClearAll": "全部清除",
+      "CustomBrowser": "提示：自定义令牌存储在您的浏览器本地"
+    }
+  },
+  "Setting": {
+    "AreSure": "你确定吗？",
+    "ExpertFunds": "专家模式会关闭确认交易提示，并允许高差价交易，这通常会导致汇率差和资金损失。",
+    "ONLYDOING": "如果您知道自己在做什么，请仅使用此模式。",
+    "TurnMode": "开启专家模式",
+    "TransactionSettings": "交易设定",
+    "InterfaceSettings": "介面设定",
+    "ToggleMode": "切换专家模式",
+    "BypassesRisk": "绕过确认模式并允许高滑点交易。 使用风险自负。",
+    "DisableMultihops": "禁用多跳",
+    "RestrictsOnly": "仅将交换限制为直接对。",
+    "Language": "语言"
+  },
+  "TransactionSettings": {
+    "SlippageTolerance": "滑移公差",
+    "UnfavorablyPercentage": "如果价格的不利变化超过此百分比，您的交易将恢复。",
+    "SlippagePercentage": "输入有效的滑点百分比",
+    "TransactionFail": "您的交易可能失败",
+    "TransactionFrontrun": "您的交易可能是抢先交易",
+    "TransactionDeadline": "交易截止日期",
+    "PendingLong": "如果您的交易待处理的时间超过此时间，则它将还原。",
+    "Minutes": "分钟"
+  },
+  "trad": {
+    "PoolRewards": "矿池奖励",
+    "WithdrawRewards": "提取奖励",
+    "Withdraw": "提取",
+    "TradPair": "交易对",
+    "APY": "收益率",
+    "CurrentReward": "当前总奖励",
+    "TradVolume": "交易总额",
+    "CurrentVolume": "当前交易额",
+    "PersonVolume": "个人交易额",
+    "PersonReward": "个人奖励",
+    "Loading": "加载中",
+    "NoData": "没有数据"
+  },
+  "farm": {
+    "MyFarm": "个人农场",
+    "TotalProfit": "我的收益",
+    "FarmPool": "农场",
+    "Principal": "池量",
+    "APY": "收益率",
+    "Profit": "收益",
+    "TotalStaked": "我的存入量",
+    "Operate": "操作",
+    "Stake": "存入",
+    "WSWAP-LP": "WSWAP-LP",
+    "SingleToken": "单币池",
+    "TotalLpPool": "共有LP矿池",
+    "Default": "默认",
+    "Select": "选择",
+    "Loading": "加载中",
+    "NoData": "没有数据"
+  },
+  "Voter": {
+    "UnlockVotes": "解锁投票",
+    "UpdateDelegation": "更新委托",
+    "WSwapGovernance": "WSwap治理",
+    "GovernanceDelegate": "XT令牌代表WSwap治理中的有投票权的份额。 您可以自己对每个提案进行投票，也可以将投票委托给第三方。",
+    "ReadGovernance": "阅读有关WSwap治理的更多信息",
+    "Proposals": "提案",
+    "UnlockVoting": "解锁投票",
+    "Votes": "投票数",
+    "DelegatedTo": "委托给：",
+    "Edit": "(编辑)",
+    "NoFound": "找不到提案。",
+    "ProposalsAppear": "社区成员提交的提案将显示在此处。",
+    "ThreshholdProposals": "提交提案的最低门槛为XT总供应量的1％",
+    "VotePage": {
+      "UnlockVotes": "解锁投票",
+      "AllProposals": "所有提案",
+      "VotingEnded": "投票结束",
+      "VotingApproximately": "投票大约结束",
+      "DelegatedBlock": "封锁前，只有XT票是自行委托或委托给其他地址的",
+      "EligibleVoting": "有投票权。",
+      "UnlockVoting": "解锁投票",
+      "PrepareProposal": "为下一个提案做准备。",
+      "VoteFor": "投票给",
+      "VoteAgainst": "反对",
+      "For": "为了",
+      "Against": "反对",
+      "Details": "详情",
+      "Description": "描述",
+      "Proposer": "建议"
+    }
+  },
+  "UseWrapCallback": {
+    "InsufficientBalance": "OKT余额不足"
+  },
+  "stake": {
+    "Earned": "已赚取",
+    "Staked": "已质押",
+    "WithdrawReward": "提取收益",
+    "Approve": "授权",
+    "Deposit": "存入",
+    "Withdraw": "提取",
+    "ApproveSuccess": "授权成功",
+    "DepositSuccess": "存入成功",
+    "WithdrawSuccess": "提取成功",
+    "GET": "获取",
+    "Back": "返回"
+  },
+  "Burn": {
+    "ConnectWallet": "链接钱包",
+    "EnterAmount": "输入金额"
+  },
+  "Swapes": {
+    "ConnectWallet": "链接钱包",
+    "EnterAmount": "输入金额",
+    "SelectToken": "选择通证",
+    "EnterRecipient": "输入收件人",
+    "InvalidRecipient": "无效的收件者",
+    "Insufficient": "不足的",
+    "Balance": "余额"
+  },
+  "Mint": {
+    "ConnectWallet": "链接钱包",
+    "EnterAmount": "输入金额",
+    "InvalidPair": "无效的货币对",
+    "Insufficient": "不足的",
+    "Balance": "余额"
+  },
+  "Staker": {
+    "ConnectWallet": "链接钱包",
+    "EnterAmount": "输入金额"
+  },
+  "Swaper": {
+    "AdvancedSwapDetails": {
+      "MinimumReceived": "最低收到",
+      "MaximumSold": "最高销售量",
+      "UnfavorableConfirmed": "如果在确认之前出现较大的不利价格变动，则您的交易将恢复。",
+      "PriceImpact": "价格影响",
+      "DifferenceTrade": "由于交易规模，市场价格与估计价格之间的差异。",
+      "LiquidityFee": "流动资金提供者费用",
+      "ProtocolIncentive": "每笔交易的一部分（0.30％）作为协议激励流向流动性提供者。",
+      "Route": "路线",
+      "BestTrade": "通过这些令牌进行路由可以为您的交易带来最佳的价格。"
+    },
+    "BetterTradeLink": {
+      "BetterTrade": "这项交易有更好的价格",
+      "Showing": "显示",
+      "Price": "价格。",
+      "SwitchTo": "切换到"
+    },
+    "ConfirmSwapModal": {
+      "ConfirmSwap": "确认兑换"
+    },
+    "SwapModalFooter": {
+      "Price": "价格",
+      "MinimumReceived": "最低收到",
+      "MaximumSold": "最高销售量",
+      "UnfavorableConfirmed": "如果在确认之前出现较大的不利价格变动，则您的交易将恢复。",
+      "PriceImpact": "价格影响",
+      "DifferenceTrade": "由于交易规模，市场价格与估计价格之间的差异。",
+      "LiquidityFee": "流动资金提供者费用",
+      "ProtocolIncentive": "每笔交易的一部分（0.30％）作为协议激励流向流动性提供者。",
+      "SwapAnyway": "仍要交换",
+      "ConfirmSwap": "确认兑换"
+    },
+    "SwapModalHeader": {
+      "Accept": "接受",
+      "OutputLeast": "估计输出。 您至少会收到 ",
+      "TransactionRevert": " 否则交易将还原。",
+      "EstimatedMost": "估计输入。 您最多将出售 ",
+      "OutputTo": "输出将发送到",
+      "PriceUpdated": "价格更新"
+    },
+    "UnsupportedCurrencyFooter": {
+      "UnsupportedAssets": "不支持的资产",
+      "AvailableReasons": "有些资产无法通过此界面使用，因为它们可能无法与我们的智能合约配合使用，或者由于法律原因我们无法进行交易。",
+      "ReadAssets": "进一步了解不支持的资产"
+    }
+  },
+  "Toggle": {
+    "ON": "开",
+    "OFF": "关"
+  },
+  "Max": "最大值",
+  "Confirm": "确认",
+  "Cancle": "取消",
+  "Title": "链接OKExChain去中心化世界的桥梁",
+  "SubTitle": "OKExChain上的基础设施——首个一站式swap"
+}
