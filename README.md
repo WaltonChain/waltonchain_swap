@@ -2,26 +2,18 @@
 
 export declare enum ChainId {
     MAINNET = 1,
-    ROPSTEN = 3,
-    RINKEBY = 4,
     GÖRLI = 5,
-    KOVAN = 42,
     BSC = 97,
-    HECO = 256,
     OKLINK = 65,
 }
 
-import { Token, TokenAmount, WETH } from '@wswap/sdk'
+import { Token, TokenAmount, WETH } from '@uniswap/sdk'
 WETH：
 export declare const WETH: {
     1: Token;
-    3: Token;
-    4: Token;
     5: Token;
-    42: Token;
     97: Token;
     65: Token;
-    256: Token;
 };
 
 ### env
